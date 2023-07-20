@@ -1,0 +1,5 @@
+hours = input('Informe quantas horas você trabalha por mês: ')
+hours = int(hours)
+salario_hora =  input('Informe, agora, o quanto vc ganha por hora: ')
+salario_hora = float(salario_hora)
+print(f'total recebido no mês === {hours * salario_hora}')
